@@ -1,0 +1,19 @@
+﻿@page "/login"
+@inject IJSRuntime JS
+@inject NavigationManager Navigation
+@inject Blazored.LocalStorage.ILocalStorageService localStorage
+
+<div class="login-container">
+    <div class="login-form">
+        <h2>Login</h2>
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" @bind="loginModel.Username" placeholder="Enter Username" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" @bind="loginModel.Password" placeholder="Enter Password" class="form-control" />
+        </div>
+        <button class="btn btn-primary" @onclick="HandleLogin">Login</button>
+    </div>
+</div>

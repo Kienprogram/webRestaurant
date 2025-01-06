@@ -1,0 +1,81 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\KN Team\\Restaurant\\webRestaurant\\webRestaurant\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "E:\\KN Team\\Restaurant\\webRestaurant\\webRestaurant\\obj\\Debug\\net8.0\\compressed\\uuc3uepxnb.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "E:\\KN Team\\Restaurant\\webRestaurant\\webRestaurant\\obj\\Debug\\net8.0\\scopedcss\\bundle\\webRestaurant.styles.css",
+      "PackagePath": "staticwebassets\\webRestaurant.styles.css"
+    },
+    {
+      "Id": "E:\\KN Team\\Restaurant\\webRestaurant\\webRestaurant\\obj\\Debug\\net8.0\\service-worker-assets.js",
+      "PackagePath": "staticwebassets\\service-worker-assets.js"
+    },
+    {
+      "Id": "E:\\KN Team\\Restaurant\\webRestaurant\\webRestaurant\\obj\\Debug\\net8.0\\service-worker\\service-worker.published.js",
+      "PackagePath": "staticwebassets\\service-worker.js"
+    },
+    {
+      "Id": "E:\\KN Team\\Restaurant\\webRestaurant\\webRestaurant\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "E:\\KN Team\\Restaurant\\webRestaurant\\webRestaurant\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\KN Team\\Restaurant\\webRestaurant\\webRestaurant\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\KN Team\\Restaurant\\webRestaurant\\webRestaurant\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "E:\\KN Team\\Restaurant\\webRestaurant\\webRestaurant\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "E:\\KN Team\\Restaurant\\webRestaurant\\webRestaurant\\wwwroot\\icon-512.png",
+      "PackagePath": "staticwebassets\\icon-512.png"
+    },
+    {
+      "Id": "E:\\KN Team\\Restaurant\\webRestaurant\\webRestaurant\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "E:\\KN Team\\Restaurant\\webRestaurant\\webRestaurant\\wwwroot\\js\\success.js",
+      "PackagePath": "staticwebassets\\js\\success.js"
+    },
+    {
+      "Id": "E:\\KN Team\\Restaurant\\webRestaurant\\webRestaurant\\wwwroot\\manifest.webmanifest",
+      "PackagePath": "staticwebassets\\manifest.webmanifest"
+    },
+    {
+      "Id": "E:\\KN Team\\Restaurant\\webRestaurant\\webRestaurant\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.webRestaurant.props",
+      "PackagePath": "build\\webRestaurant.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.webRestaurant.props",
+      "PackagePath": "buildMultiTargeting\\webRestaurant.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.webRestaurant.props",
+      "PackagePath": "buildTransitive\\webRestaurant.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.webRestaurant.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,62 @@
+﻿@* @inherits LayoutComponentBase
+<div class="page">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <main>
+        <div class="top-row px-4">
+            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
+        </div>
+
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>
+ *@
+
+ @inherits LayoutComponentBase
+@inject NavigationManager NavigationManager
+@inject Blazored.LocalStorage.ILocalStorageService localStorage
+
+<div class="page">
+    @if (IsLoginPage)
+    {
+        <div class="sidebar">
+            <NavMenu />
+        </div>
+    }
+
+    <main>
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>
+
+@code {
+    private string? userName { get; set; }
+    private bool IsLoginPage = false;
+
+    private async Task GetValue()
+    {
+        // Get a value from LocalStorage
+        userName = await localStorage.GetItemAsync<string>("UserName");
+        Console.WriteLine($"Value retrieved from LocalStorage: {userName}");
+        if (userName != null)
+        {
+            IsLoginPage = true;
+        }
+    }
+
+    // Optionally, load the value on page load
+    protected override async Task OnInitializedAsync()
+    {
+        userName = await localStorage.GetItemAsync<string>("UserName");
+        if (userName != null)
+        {
+            IsLoginPage = true;
+        }
+    }
+}
